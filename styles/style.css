@@ -147,7 +147,7 @@ main {
   background-color: var(--bg-color, #fff);
   transition: 
   box-shadow var(--transition-duration) var(--transition-easing),
-  transform 0.1s ease;
+  transform 0.3s ease;
   cursor: pointer;
 }
 
