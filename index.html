@@ -1,17 +1,19 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Фавиконы в веб-форматах -->
     <link rel="icon" href="./images/favicon.ico" sizes="any" />
     <link rel="icon" href="./svg/favicon.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="./images/favicon.png" />
+    <!-- Стили -->
     <link rel="stylesheet" href="./fonts/fonts.css" />
     <link rel="stylesheet" href="./styles/variables.css" />
     <link rel="stylesheet" href="./styles/globals.css" />
     <link rel="stylesheet" href="./styles/style.css" />
     <link rel="stylesheet" href="./styles/animations.css" />
-    <title>Закрывающий тег</title>
+    <title>Закрывающий тег - История обучения</title>
   </head>
   <body class="page">
     <header class="header content-size">
@@ -21,17 +23,19 @@
     <main>
       <section class="content content-size">
         <ul class="content__list">
+          <!-- Первая карточка -->
           <li class="content__item">
             <article class="card">
               <h2 class="card__title">
                 Фритрек и нулевой спринт: Подготовка к работе
               </h2>
               <div class="card__img-wrapper">
-                <span class="card__img-label">&lt;/Html&gt;</span>
+                <span class="card__img-label" aria-hidden="true">&lt;/Html&gt;</span>
                 <img
                   class="card__img"
-                  src="./images/bus.jpg"
-                  alt="дом на колесах в лесу"
+                  src="./images/bus.png"
+                  alt="Дом на колесах в сосновом лесу с закатным освещением"
+                  loading="lazy"
                 />
               </div>
               <div class="card__content">
@@ -79,13 +83,19 @@
                       />
                     </svg>
                   </button>
-                  <button class="card__like-button button" type="button">
+                  <button 
+                  class="card__like-button button"
+                  type="button"
+                  aria-label="Поставить лайк"
+                  data-like-btn
+                >
                     <span class="button__text">Like</span>
                   </button>
                 </div>
               </div>
             </article>
           </li>
+          <!-- Вторая карточка -->
           <li class="content__item">
             <article class="card">
               <h2 class="card__title">1 спринт: Я — чистый лист</h2>
@@ -95,6 +105,7 @@
                   class="card__img filter-contrast"
                   src="./images/clear_list.png"
                   alt="с чистого листа"
+                  loading="lazy"
                 />
               </div>
               <div class="card__content">
@@ -145,13 +156,19 @@
                       />
                     </svg>
                   </button>
-                  <button class="card__like-button button" type="button">
+                  <button 
+                  class="card__like-button button"
+                  type="button"
+                  aria-label="Поставить лайк"
+                  data-like-btn
+                >
                     <span class="button__text">Like</span>
                   </button>
                 </div>
               </div>
             </article>
           </li>
+          <!-- Третья карточка -->
           <li class="content__item">
             <article class="card">
               <h2 class="card__title">1 спринт: А если не получится?</h2>
@@ -159,8 +176,9 @@
                 <span class="card__img-label">&lt;Yeah boy&gt;</span>
                 <img
                   class="card__img filter-grayscale"
-                  src="./images/i_can?.png"
-                  alt="мальчик очень сильно радуется"
+                  src="./images/i_can.png"
+                  alt="я все могу"
+                  loading="lazy"
                 />
               </div>
               <div class="card__content">
@@ -208,13 +226,19 @@
                       />
                     </svg>
                   </button>
-                  <button class="card__like-button button" type="button">
+                  <button 
+                  class="card__like-button button"
+                  type="button"
+                  aria-label="Поставить лайк"
+                  data-like-btn
+                >
                     <span class="button__text">Like</span>
                   </button>
                 </div>
               </div>
             </article>
           </li>
+          <!-- Четвертая карточка -->
           <li class="content__item">
             <article class="card">
               <h2 class="card__title">2 спринт: Погоня за идеалом</h2>
@@ -224,6 +248,7 @@
                   class="card__img filter-sepia"
                   src="./images/dreem.png"
                   alt="Погоня за идеалом"
+                  loading="lazy"
                 />
               </div>
               <div class="card__content">
@@ -273,13 +298,19 @@
                       />
                     </svg>
                   </button>
-                  <button class="card__like-button button" type="button">
+                  <button 
+                  class="card__like-button button"
+                  type="button"
+                  aria-label="Поставить лайк"
+                  data-like-btn
+                >
                     <span class="button__text">Like</span>
                   </button>
                 </div>
               </div>
             </article>
           </li>
+          <!-- Пятая карточка -->
           <li class="content__item">
             <article class="card">
               <h2 class="card__title">2 спринт: О тех, кто рядом</h2>
@@ -289,6 +320,7 @@
                   class="card__img filter-brightness"
                   src="./images/any.png"
                   alt="О тех, кто рядом"
+                  loading="lazy"
                 />
               </div>
               <div class="card__content">
@@ -339,13 +371,19 @@
                       />
                     </svg>
                   </button>
-                  <button class="card__like-button button" type="button">
+                  <button 
+                  class="card__like-button button"
+                  type="button"
+                  aria-label="Поставить лайк"
+                  data-like-btn
+                >
                     <span class="button__text">Like</span>
                   </button>
                 </div>
               </div>
             </article>
           </li>
+          <!-- Шестая карточка -->
           <li class="content__item">
             <article class="card">
               <h2 class="card__title">3 спринт: Обходные стратегии</h2>
@@ -355,6 +393,7 @@
                   class="card__img filter-saturate"
                   src="./images/strategy.png"
                   alt="стратегии"
+                  loading="lazy"
                 />
               </div>
               <div class="card__content">
@@ -401,13 +440,19 @@
                       />
                     </svg>
                   </button>
-                  <button class="card__like-button button" type="button">
+                  <button 
+                  class="card__like-button button"
+                  type="button"
+                  aria-label="Поставить лайк"
+                  data-like-btn
+                >
                     <span class="button__text">Like</span>
                   </button>
                 </div>
               </div>
             </article>
           </li>
+          <!-- Седьмая карточка -->
           <li class="content__item">
             <article class="card">
               <h2 class="card__title">3 спринт: Когда опускаются руки</h2>
@@ -417,6 +462,7 @@
                   class="card__img filter-blur"
                   src="./images/when_i_down.png"
                   alt="Когда опускаются руки"
+                  loading="lazy"
                 />
               </div>
               <div class="card__content">
@@ -466,13 +512,19 @@
                       />
                     </svg>
                   </button>
-                  <button class="card__like-button button" type="button">
+                  <button 
+                  class="card__like-button button"
+                  type="button"
+                  aria-label="Поставить лайк"
+                  data-like-btn
+                >
                     <span class="button__text">Like</span>
                   </button>
                 </div>
               </div>
             </article>
           </li>
+          <!-- Восьмая карточка -->
           <li class="content__item">
             <article class="card">
               <h2 class="card__title">«Сейчас я здесь»</h2>
@@ -482,6 +534,7 @@
                   class="card__img filter-multi"
                   src="./images/i_am_here.png"
                   alt="Сейчас я здесь"
+                  loading="lazy"
                 />
               </div>
               <div class="card__content">
@@ -533,7 +586,12 @@
                       />
                     </svg>
                   </button>
-                  <button class="card__like-button button" type="button">
+                  <button 
+                  class="card__like-button button"
+                  type="button"
+                  aria-label="Поставить лайк"
+                  data-like-btn
+                >
                     <span class="button__text">Like</span>
                   </button>
                 </div>
@@ -546,10 +604,12 @@
         class="save-button button"
         type="button"
         onclick="window['save-dialog'].showModal()"
+        aria-haspopup="dialog"
         aria-controls="save-dialog"
+        data-save-btn
       >
         <svg viewBox="0 0 40 40">
-          <use href="./svg/icons.svg#floppy"></use>
+          <use href="./svg/floppy.svg#floppy"></use>
         </svg>
         <span class="button__text">Сохранить на память</span>
       </button>
@@ -557,13 +617,15 @@
     <dialog id="save-dialog" class="dialog">
       <div class="dialog__content">
         <svg viewBox="0 0 40 40">
-          <use href="./svg/icons.svg#floppy"></use>
+          <use href="./svg/floppy.svg#floppy"></use>
         </svg>
         <p class="dialog__text">Вставьте дискету, чтобы продолжить</p>
       </div>
       <button
         class="dialog__button button"
         type="button"
+        data-close-dialog
+        autofocus
         onclick="window['save-dialog'].close()"
       >
         <span class="button__text">ok</span>
