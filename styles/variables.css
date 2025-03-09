@@ -1,35 +1,37 @@
 :root {
-    /* Colors */
-    --bg-color: #fff;
-    --accent-color: #000;
-    --text-stroke-color: #fff;
-    --heart-contour-color: #000;
-    --heart-main-color: #f00;
-  
-    /* Fonts */
-    --main-font-family: 'Inter-Variable';
-    --accent-font-family: 'Press Start 2P', cursive;
-    --main-font-weight: 400;
-    --title-font-weight: 700;
-  
-    /* Sizes */
-    --content-size: clamp(23.4375rem, 16.2852rem + 30.5164vw, 43.75rem);
-    --transition-duration: 0.3s;
-    --transition-easing: ease-in-out;
-    --card-gap: 50px;
-  
-    /* Backgrounds */
-    --background-image: repeating-linear-gradient(
-        to right,
-        #d3d3d3 0 2px,
-        transparent 2px 4px
-      ),
-      repeating-linear-gradient(to bottom, #d3d3d3 0 2px, transparent 2px 4px),
-      linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
+  /* Colors */
+  --bg-color: #fff;
+  --accent-color: #000;
+  --text-stroke-color: #fff;
+  --heart-contour-color: #000;
+  --heart-main-color: #f00;
+
+  /* Fonts */
+  --main-font-family: "Inter-Variable";
+  --accent-font-family: "Press Start 2P", cursive;
+  --main-font-weight: 400;
+  --title-font-weight: 700;
+
+  /* Sizes */
+  --content-size: clamp(23.4375rem, 16.2852rem + 30.5164vw, 43.75rem);
+  --transition-duration: 0.3s;
+  --transition-easing: ease-in-out;
+  --card-gap: 50px;
+  --default-font-size: 0.875rem;
+  --big-font-size: 1.125rem;
+
+  /* Backgrounds */
+  --background-image: repeating-linear-gradient(
+      to right,
+      #d3d3d3 0 2px,
+      transparent 2px 4px
+    ),
+    repeating-linear-gradient(to bottom, #d3d3d3 0 2px, transparent 2px 4px),
+    linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
+}
+
+@media (width <= 375px) {
+  :root {
+    --content-size: 100%;
   }
-  
-  @media (width <= 375px) {
-    :root {
-      --content-size: 100%;
-    }
-  }
+}
