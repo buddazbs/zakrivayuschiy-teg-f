@@ -82,3 +82,8 @@
 .like-icon.is-liked .like-icon__sparks {
   animation: sparking 0.3s ease-in 0.3s;
 }
+
+.like-icon__contour {
+  fill: var(--heart-contour-color);
+  transition: fill linear 0.3s 0.06s;
+}
