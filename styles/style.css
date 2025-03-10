@@ -227,8 +227,8 @@ main {
 .dialog {
   flex-direction: column;
   align-items: center;
-  gap: 27px;
-  padding: 30px;
+  gap: 1.6875rem; /* 27px */
+  padding: 1.875rem; /* 30px */
   border: 2px solid var(--accent-color, #000);
   inline-size: clamp(21.3125rem, 21.0484rem + 1.1268vw, 22.0625rem);
   top: -65%;
