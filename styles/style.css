@@ -144,8 +144,7 @@ main {
   border: 2px solid var(--accent-color, #000);
   color: var(--bg-color);
   background-color: var(--bg-color, #fff);
-  transition: box-shadow var(--transition-duration) var(--transition-easing),
-    transform 0.3s ease;
+  transition: box-shadow 0.3s ease;
   cursor: pointer;
 }
 
@@ -154,7 +153,7 @@ main {
   position: absolute;
   inset: 0;
   background-color: var(--accent-color, #000);
-  transition: transform var(--transition-duration) var(--transition-easing);
+  transition: transform 0.5s ease-in-out;
   transform: scaleX(0);
   transform-origin: left;
 }
@@ -169,10 +168,6 @@ main {
 
 .button:hover::before {
   transform: scaleX(1);
-}
-
-.button:where(:hover, :focus-visible) {
-  transform: translateY(-0.0625rem); /* 1px */
 }
 
 .card__buttons {
